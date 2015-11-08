@@ -18,6 +18,37 @@ use Roots\Sage\Wrapper;
       do_action('get_header');
       get_template_part('templates/header');
     ?>
+    <?php if (is_front_page()) { ?>
+    <div class="wrap front-page"  role="document">
+          <?php include Wrapper\template_path(); ?>
+    </div>
+    <?php } else { ?>
+
+
+<?php 
+$image = get_field('img');
+
+if( !empty($image) ): 
+?>
+<div class="bucket">
+	<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+    
+<?php 
+$title = get_field('desc');
+
+if( !empty($title) ): 
+?><div class="page-land">
+    <div class="container">
+    <div class="col-md-8">
+        <?php echo $title ?>
+    </div>
+    </div>
+    </div>
+<?php endif; ?>
+</div>
+<?php endif; ?>
+
+
     <div class="wrap container" role="document">
       <div class="content row">
         <main class="main" role="main">
@@ -30,6 +61,12 @@ use Roots\Sage\Wrapper;
         <?php endif; ?>
       </div><!-- /.content -->
     </div><!-- /.wrap -->
+
+    <?php } ?>
+    <?php if (!is_front_page()) { ?>
+    <?php get_template_part('templates/land'); ?>
+    <?php } else { ?>
+    <?php } ?>
     <?php
       do_action('get_footer');
       get_template_part('templates/footer');

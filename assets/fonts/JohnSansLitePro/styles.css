@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'JohnSansLitePro';
+  src: url('JohnSansLitePro.eot?#iefix') format('embedded-opentype'),  url('JohnSansLitePro.otf')  format('opentype'),
+	     url('JohnSansLitePro.woff') format('woff'), url('JohnSansLitePro.ttf')  format('truetype'), url('JohnSansLitePro.svg#JohnSansLitePro') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

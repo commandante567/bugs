@@ -1,1 +1,96 @@
+body {
+    font-family:'WhitneyBook', serif;
+}
+a, a:focus {
+    color:$blue;
+}
+a:focus {
+    text-decoration:none;
+    outline:none;
+}
 
+h1 {
+    font-family:'JohnSansMediumPro';
+}
+
+h1.section-header {
+    margin:0;
+    padding-bottom:21px;
+    position:relative;
+    font-size:46px;
+    font-family:'JohnSansLitePro';
+}
+
+h2 {
+    font-family:'JohnSansMediumPro';
+    color:$black;
+    font-size:24px;
+}
+
+h3.sub-section {
+    margin:0;
+    padding-bottom:27px;
+    color: #6f6f5a;
+}
+
+
+h3 {
+    font-size:23px;
+}
+
+p.large {
+    font-size:21px;
+    color:$black;
+    line-height:1.33;
+
+}
+
+p {
+    color:$text;
+}
+a {
+    transition:0.3s ease all ;
+}
+
+.light-blue {
+    color:$light-blue;
+}
+
+.section-container {
+    padding:40px 0;
+    text-align:center;
+}
+
+.modal-open .modal {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  overflow-y: scroll;
+}
+
+
+
+
+    .varanty {
+        text-align:center;
+        ul {
+            list-style:none;
+            margin:0;
+            padding:0;
+            display:inline-block;
+            text-align:left;
+            li {
+                
+                a {
+                    font-size:18px;        
+                    color:$black;
+                    &:hover {
+                        color:$blue;
+                        text-decoration:none;
+                    }
+                }
+                
+            }
+        }
+        a, span {
+        }
+    }

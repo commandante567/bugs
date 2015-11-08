@@ -1,0 +1,217 @@
+.top {
+    border-bottom:1px solid $border;
+    padding:3px 0;
+    .city-nav {
+            span {
+                font-size:13px;
+            }
+         .dropdown {
+            display:inline-block;
+            padding:0 3px;
+            a {
+                color:$black;
+                font-size:14px;
+                &:hover {
+                    color:$blue;
+                    text-decoration:none;
+                }
+            }
+        }
+    }
+
+}
+
+header.main-header{
+    background: rgba(247,247,247,1);
+background: -moz-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 50%, rgba(247,247,247,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,247,247,1)), color-stop(50%, rgba(255,255,255,1)), color-stop(100%, rgba(247,247,247,1)));
+background: -webkit-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 50%, rgba(247,247,247,1) 100%);
+background: -o-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 50%, rgba(247,247,247,1) 100%);
+background: -ms-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 50%, rgba(247,247,247,1) 100%);
+background: linear-gradient(to right, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 50%, rgba(247,247,247,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#f7f7f7', GradientType=1 );
+    .logo-area {
+        padding:25px 0;
+    }
+    .logo {
+        > span {
+                font-size:18px;
+                display:inline-block;
+                line-height:1.1;
+            }
+        h1 {
+            display: inline-block;
+            border-right: 1px solid $border;
+            padding: 0 10px 0 0;
+            margin:0;
+            font-size:47px;
+           
+            a {
+                color:$black;
+                &:hover {
+                    text-decoration:none;
+                }
+            }
+        }
+    }
+    .res {
+        span {
+            font-size:12px;
+            color:#a17516;
+        }
+    }
+.contacts-main {
+    text-align:right;
+}
+    .phones {
+      
+        .phone-prefix {
+            font-size:16px; 
+            vertical-align: super;
+        }
+        ul {
+            margin:0;
+            padding:0;
+            list-style:none;
+            li {
+                display:inline-block;
+                line-height:1;
+                padding-top:10px;
+                a {
+                    font-size:23px;
+                    color:$black;
+                    &:hover {
+                        color:$blue;
+                        text-decoration:none;
+                    }
+                }
+                &:first-child{
+                    padding-right:10px;
+                }
+            }
+        }
+    }
+    .callback {
+        span {
+            font-size:13px;
+            padding-right:10px;
+        }
+        a {
+            font-size:14px;
+            border-bottom:1px $black dashed;
+            color:$black;
+            &:hover {
+                color:$blue;
+                border-color:$blue;
+                text-decoration:none;
+            }
+        }
+    }
+}
+
+#affix-top-menu.affix {
+
+    a {
+        transition:0.3s ease-out padding;
+                    padding:10px 10px;
+
+    }
+    .sub-menu-wrap {
+        a {
+                            padding:10px 45px;
+        }
+    }
+}
+.front-affix {
+
+}
+
+nav.main-nav-wrap {
+            position:relative;
+    background-color:$light-blue;
+    ul.main-nav {
+            list-style: outside none none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        > li {
+                margin: 0;
+                padding:  0;
+                text-align: center;
+                position:initial;
+                > a {
+                    color:$white;
+                    font-size:16px;
+                    transition:none;
+                    padding:12px 10px;
+                }
+                &.current-page-ancestor {
+                     z-index:99999;
+                }
+                &:hover, &.current-page-ancestor, &.current-menu-item  {
+                    > a{
+                        color:$black;
+                        background-color:$yellow;
+                    }
+                    background-color:$yellow;
+                     >.sub-menu-wrap  {
+                 }
+                }
+                &:hover {
+                    >.sub-menu-wrap {
+                        z-index:9899;
+                    }
+                }
+                .sub-menu-wrap {
+                    display:none;
+                    width: 100%;
+                    top: 100%;
+                    position:absolute;
+                    left:0;
+                    box-shadow:         2px 3px 5px 0px rgba(50, 50, 50, 0.35);
+                    z-index:9000;
+                    background-color: $black;
+                 ul.sub-menu {
+                list-style: none;
+                text-align: left;
+                padding:  0px;
+                    li {
+                        float:left;
+                        a {
+                            color:$white;
+                            display:block;
+                            padding:10px 45px;
+                            font-size:16px;
+                            &:hover {
+                            background-color:$yellow;
+                                color:$black;
+                                text-decoration:none;
+                            }
+                        }
+                        &.current-menu-item {
+                            a {
+                                background-color:$yellow;
+                                color:$black;
+                                text-decoration:none;
+                            }
+                        }
+                    }
+                }
+             }
+             
+         }
+    }
+}
+.affix {    
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    width: 100%;
+}
+.affix_place {
+   min-height:45px;
+}
+.affix-bottom {
+    position: absolute;
+    bottom: 490px;
+}

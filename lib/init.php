@@ -19,7 +19,8 @@ function setup() {
   // Register wp_nav_menu() menus
   // http://codex.wordpress.org/Function_Reference/register_nav_menus
   register_nav_menus([
-    'primary_navigation' => __('Primary Navigation', 'sage')
+      'primary_navigation' => __('Primary Navigation', 'sage'),
+      'side_menu' => 'Uslugi_side'
   ]);
 
   // Add post thumbnails
@@ -27,6 +28,8 @@ function setup() {
   // http://codex.wordpress.org/Function_Reference/set_post_thumbnail_size
   // http://codex.wordpress.org/Function_Reference/add_image_size
   add_theme_support('post-thumbnails');
+
+  set_post_thumbnail_size( 345, 145, true );  
 
   // Add post formats
   // http://codex.wordpress.org/Post_Formats

@@ -1,3 +1,5 @@
+$font-size-base: 16px;
+$line-height-base: 1.6;
 // Glyphicons font path
 $icon-font-path:        "../fonts/";
 
@@ -6,4 +8,44 @@ $main-sm-columns:       12;
 $sidebar-sm-columns:    4;
 
 // Colors
-$brand-primary:         #27ae60;
+$white:#ffffff;
+$black:#212629;
+$yellow:#ffde00;
+$blue:#007dcc;
+$light-blue:#21a0cb;
+$grey:#f8f8f8;
+$text:#666;
+$green:#4fc47f;
+$light-green:#caedd8;
+$light-link:#8b8b8b;
+$border:#bcbcbc;
+//RADIUS 
+$br: 7px;
+
+
+// FONTS 
+@font-face {
+  font-family: 'JohnSansMediumPro';
+  src: url('../fonts/JohnSansMediumPro.eot?#iefix') format('embedded-opentype'),  url('../fonts/JohnSansMediumPro.otf')  format('opentype'),
+	     url('../fonts/JohnSansMediumPro.woff') format('woff'), url('JohnSansMediumPro.ttf')  format('truetype'), url('../fonts/JohnSansMediumPro.svg#JohnSansMediumPro') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'WhitneyBook';
+  src: url('../fonts/WhitneyBook.eot?#iefix') format('embedded-opentype'), 
+	     url('../fonts/WhitneyBook.woff') format('woff'), url('../fonts/WhitneyBook.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'JohnSansLitePro';
+  src: url('../fonts/JohnSansLitePro.eot?#iefix') format('embedded-opentype'),  url('../fonts/JohnSansLitePro.otf')  format('opentype'),
+	     url('../fonts/JohnSansLitePro.woff') format('woff'), url('../fonts/JohnSansLitePro.ttf')  format('truetype'), url('../fonts/JohnSansLitePro.svg#JohnSansLitePro') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -75,3 +75,50 @@
   $(document).ready(UTIL.loadEvents);
 
 })(jQuery); // Fully reference jQuery after this point.
+
+function centerModals($element) {
+  var $modals;
+  if ($element.length) {
+    $modals = $element;
+  } else {
+    $modals = jQuery('.modal-vcenter:visible');
+  }
+  $modals.each( function(i) {
+    var $clone = jQuery(this).clone().css('display', 'block').appendTo('body');
+    var top = Math.round(($clone.height() - $clone.find('.modal-content').height()) / 2);
+    top = top > 0 ? top : 0;
+    $clone.remove();
+    jQuery(this).find('.modal-content').css("margin-top", top);
+  });
+}
+
+jQuery('.modal-vcenter').on('show.bs.modal', function(e) {
+  centerModals(jQuery(this));
+});
+jQuery(window).on('resize', centerModals);
+
+jQuery(document).ready(function(){
+
+    jQuery('[data-toggle="tooltip"]').tooltip();   
+
+    jQuery('#affix-top-menu').affix({
+        offset : {
+            top: function() {
+                    return (this.top = jQuery('.main-header').outerHeight(true));
+                },
+            bottom:10
+            }
+        });
+
+        jQuery('li.menu-item-has-children').hover(function(event) {
+                event.stopPropagation();
+                var submenu = jQuery( this ).find('.sub-menu-wrap');
+
+                submenu.stop().slideToggle(300); 
+        });   
+
+    });
+
+
+
+

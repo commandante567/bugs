@@ -1,0 +1,32 @@
+footer.main-footer {
+    background-color:$grey;
+    padding-top:30px;
+    border-top:1px solid $border;
+        a {
+            color:$light-link;
+        }
+        .copyright {
+            text-align:center;
+        }
+    p.city {
+
+            font-size: 18px;
+    }
+     a.phone, a.email {
+            font-size: 18px;
+    }
+    a:hover {
+        color:$blue;
+    }
+}
+
+.b-footer-menu {
+    ul {
+        margin:0;
+        padding:0;
+        list-style:none;
+        li {
+            padding:0 0 4px 0;
+        }
+    }
+}

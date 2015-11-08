@@ -1,0 +1,146 @@
+.breadcrumbs {
+    padding:0 0 0 20px;
+    > span {
+        color:#999;
+        font-size:14px;
+        padding:0 4px;
+    }
+    a {
+        text-decoration:none;
+        color:#999;
+        &:hover {
+            color:$blue;
+            span {
+            
+            }
+        }
+    }
+}
+
+
+.child_pages {
+    a:hover {
+        text-decoration:none;
+    }
+    .child_page {
+        width:33.33334%;
+        .child_page-container {
+            border:none;
+        }
+        .post_thumb {
+            
+        }
+        .post_content {
+            h3 {
+                margin-top:6px;
+                a {
+                    color:$black;
+                }
+            }
+        }
+        &:hover{
+            .post_content{
+                h3 {
+                    a {
+                        color:$blue;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.main {
+    padding-bottom:40px;
+    h2 {
+        font-size: 40px;
+        text-align: center;
+        padding-top: 35px;
+        padding-bottom:20px;
+        font-family:'JohnSansLitePro';
+    }
+    h3 {
+        padding-bottom:12px;
+    }
+    ul {
+        li {
+            color:$text;
+            padding-bottom:3px;
+        }
+    }
+}
+
+.page-header {
+        padding-bottom: 11.5px;
+        border:none;
+        text-align:center;
+        margin-top:27px;
+        h1 {
+        }
+}
+
+.bucket {
+       max-width: 1366px;
+       margin: 0 auto;
+       height:406px;
+       overflow:hidden;
+       position:relative;
+    img {
+        height:100%;
+    }
+}
+
+.page-land {
+   left: 7%;
+    position: absolute;
+    right: 50%;
+    top: 12pt;
+    width: 55%;
+    z-index: 10; 
+    h3 {
+       color:#000; 
+    font-family:'JohnSansLitePro';
+    font-size:38px;
+    padding: 8px 0 8px 0;
+     }
+     h4 {
+        font-size:26px;
+        color: #6f6f5a;
+     }
+     ul {
+            list-style:none;
+        li {
+            color:$black;
+            font-size:19px;
+            &:before {
+                content:'●';
+            padding-right:10px;
+                color:$yellow;
+            }
+        }
+     }
+     .page-button-wrap {
+         padding-top:17px;
+        text-align:center;
+     }
+}
+.table {
+    margin-bottom:43px;
+    td {
+        padding:15px 15px;
+    }
+}
+
+.nav-tabs {
+    >li {
+        >a {
+            color: $black;
+            font-size: 18px;
+            padding: 8px 34px;
+            &:hover {
+                color:$blue;
+            }
+        }
+    }
+}
+
