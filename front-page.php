@@ -1,3 +1,4 @@
+<h1>GitHub!!</h1>
         <div class="fp-banner-wrap">
           <?php get_template_part('templates/slider'); ?>
         </div>
