@@ -2,11 +2,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 contacts">
-                <p class="city">Санкт-Петербург</p>
-                <p class="phone"><a href="88129815906">+7 (812) 925-33-23</a></p>
-                <p class="phone"><a href="88129815906">+7 (812) 925-33-83</a></p>
-                <p class="email"><a href="mailto:info@kaka.su">info@ses.expert</a></p>
-
+                <p class="city">Ярославль</p>
+                <p class="phone"><a href="tel:88129233323">+7 (910) 967-61-41</a></p>
+                <p class="email"><a href="mailto:info@kaka.su">info@kaka.su</a></p>
             </div>
             <div class="col-md-9 menus">
                 <div class="col-md-3">
@@ -97,7 +95,7 @@
         <hr class="footer-hr">
         <div class="row copyright">
             <div class="col-md-12">
-                <p>Санкт-Петербургская санитарная служба</p>
+                <p>Ярославская городская санитарная служба</p>
             </div>
         </div>
     </div>

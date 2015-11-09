@@ -9,7 +9,7 @@
         <div class="col-md-7">
             <div class="logo">
                 <h1><a href="/">СЭC.<span class="light-blue">Эксперт</span></a></h1>
-                <span>Санкт-Петербургская<br>городская санитарная служба</span>
+                <span>Ярославская<br>городская санитарная служба</span>
             </div>
             <div class="res">
                 <span>Согласно федеральному закону  "О санитарно-эпидемиологическом благополучии населения"</span>
@@ -17,9 +17,8 @@
         </div>
         <div class="col-md-5 contacts-main">
         <div class="phones">
-                                <ul>
-                    <li><a href="tel:88129233323">+7 (812) 925-33-23,</a></li>
-			        <li><a href="tel:88129233323">+7 (812) 925-33-83</a></li>
+                <ul>
+                    <li><a href="tel:88129233323">+7 (910) 967-61-41</a></li>
                 </ul>          
         </div>
             <div class="callback">
