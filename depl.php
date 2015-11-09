@@ -1,3 +1,4 @@
+
 <?php
 	/**
 	 * GIT DEPLOYMENT SCRIPT
@@ -12,7 +13,7 @@
 	$body=@file_get_contents('php://input');
 	// The commands
 	$commands = array(
-		'git pull origin master',
+		'git pull',
 		'git submodule sync',
 		'git submodule update'
 	);
@@ -37,7 +38,7 @@
 	// Generate the hash verification with the request body and the key stored in your .htaccess file
 	function verify_request(){
 		$message = $GLOBALS['body'];
-		$key     = $_ENV['GIT_TOKEN'];
+		$key     = $_SERVER['GIT_TOKEN'];
 	    	$hash    = hash_hmac("sha1", $message, $key);
 	    	$hash = "sha1=".$hash;
 	    	return $hash;
@@ -59,19 +60,4 @@
 	}
 	echo "Deploy successful."
 ?>
-@sky4git
-sky4git commented on 22 Jul
-
-verify_request() is generating different string than original secret. is there any reason for it?
-That is the bit not working actually. Otherwise everything is fine.
-@sky4git
-sky4git commented on 22 Jul
-
-verify_request() is not generating same string as secret set for webhook.
-Any clue what would be the reason?
-@commandante567
-Styling with Markdown is supported
-Write Preview
-
-Attach files by dragging & dropping or selecting them.
 
