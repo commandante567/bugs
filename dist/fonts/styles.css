@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'JohnSansMediumPro';
+  src: url('JohnSansMediumPro.eot?#iefix') format('embedded-opentype'),  url('JohnSansMediumPro.otf')  format('opentype'),
+	     url('JohnSansMediumPro.woff') format('woff'), url('JohnSansMediumPro.ttf')  format('truetype'), url('JohnSansMediumPro.svg#JohnSansMediumPro') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
