@@ -54,7 +54,7 @@
 
             <div class="pluses clearfix">
 <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/24.png" alt=""/>
-            <span>Мы работаем ежедневно круглосуточно без обеда и праздников на защите своих клиентов в СПб и ЛО!</span>
+            <span>Мы работаем ежедневно круглосуточно без обеда и праздников на защите своих клиентов в в Ярославле и Ярославской области</span>
             </div>
 
             <div class="pluses clearfix"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/4des.png" alt=""/>
