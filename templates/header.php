@@ -2,7 +2,7 @@
   <div class="container">
         <div class="row top">
             <div class="col-md-12 city-nav top-item top-border">
-                              
+               <span class="small">Мы работаем в Ярославле, Рыбинске, Тутаеве, Угличе, Мышкине, Пошехонье, Брейтово и во всех районых центрах.</span>                              
             </div>
         </div>
     <div class="row logo-area">

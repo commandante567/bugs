@@ -18,7 +18,7 @@
                 <li>Заключаем договор;</li>
                 <li>Используем только сертифированные препараты;</li>
             </ul>
-            <p class="slider-button-wrap"><a class="btn btn-lg btn-primary" href="<?php get_site_url(); ?>/for-apartments/bed-bugs-extermination/" role="button">Решить проблему</a></p>
+            <p class="slider-button-wrap"><a class="btn btn-lg btn-primary" href="<?php get_site_url(); ?>/for-apartments/bed-bugs-extermination/" role="button">Узнать больше</a></p>
       </div>
     </div>
   </div>

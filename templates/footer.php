@@ -4,7 +4,7 @@
             <div class="col-md-3 contacts">
                 <p class="city">Ярославль</p>
                 <p class="phone"><a href="tel:88129233323">+7 (910) 967-61-41</a></p>
-                <p class="email"><a href="mailto:info@kaka.su">info@kaka.su</a></p>
+                <p class="email"><a href="mailto:obrab77@mail.ru">obrab77@mail.ru</a></p>
             </div>
             <div class="col-md-9 menus">
                 <div class="col-md-3">
