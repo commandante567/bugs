@@ -18,6 +18,7 @@
                                 'title_li' => null,
                                 'child_of' => 0,
                                 'depth' => 1,
+                                'exclude'      => '508, 169,191,142',
                                 'post_type' => 'page',
                                 'post_status' => 'publish',
 								'exclude'      => '2073, 2483',
